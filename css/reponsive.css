@@ -1,0 +1,21 @@
+@media screen and (max-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  header .nav__bars-btn {
+    display: block;
+    font-size: 30px;
+  }
+  header .nav__pc {
+    display: none;
+  }
+
+  header .header-nav .nav__mobile {
+    display: block;
+  }
+  header .search-box {
+    display: block;
+  }
+}
